@@ -1,10 +1,9 @@
-import bcrypt from "bcrypt";
+import "express-async-errors";
 import cors from "cors";
 import express from "express";
 import jwt from "jsonwebtoken";
 import connection from "./database.js";
 import router from "./routes/index.js";
-import "express-async-errors";
 
 import handleError from "./middlewares/handleError.js"
 
